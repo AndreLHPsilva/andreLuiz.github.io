@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  color: #141414;
+}
+body{
+  height: 2000px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}

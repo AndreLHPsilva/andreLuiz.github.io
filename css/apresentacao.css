@@ -1,0 +1,43 @@
+.apresentacao{
+  background-image: linear-gradient(to left, #141414,#041a99);
+  background-size: 500%;
+  animation: animacaoBackground 3s infinite alternate;
+  margin-top: 88px;
+  height: calc(100vh - 88px);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 88px);
+}
+.container h1{
+  place-self: center;
+  color: rgb(162, 162, 224);
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  letter-spacing: .08em;
+  font-size: 2.25rem;
+}
+.container strong{
+  color: white;
+  font-weight:900;
+}
+@media(min-width: 1200px){
+  .apresentacao{
+    margin-top: 78px;
+    height: calc(100vh - 78px);
+  }
+  .container{
+    height: calc(100vh - 78px);
+  }
+}
+@media(max-width: 800px){
+  .container h1{
+    font-size: 1.25rem;
+  }
+}
+@media(max-width: 500px){
+  .container h1{
+    font-size: 1rem;
+  }
+}
