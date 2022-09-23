@@ -6,7 +6,6 @@ export default function efeitoMaquinaEscrever(){
       setTimeout(function(){
         txt.innerHTML += letra;
       }, 85 * i)
-      console.log(letra,i);
     })
   }
   const h1 = document.querySelector('.apresentacao-texto');
