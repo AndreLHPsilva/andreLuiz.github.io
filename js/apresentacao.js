@@ -5,7 +5,7 @@ export default function efeitoMaquinaEscrever(){
     textoArray.forEach((letra,i) => {
       setTimeout(function(){
         txt.innerHTML += letra;
-      }, 75 * i)
+      }, 105 * i)
       console.log(letra,i);
     })
   }
