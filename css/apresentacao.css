@@ -31,8 +31,8 @@
     height: calc(100vh - 78px);
   }
 }
-@media(max-width: 800px){
+/* @media(max-width: 800px){
   .container h1{
     font-size: 1.75rem;
   }
-}
+} */
