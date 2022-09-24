@@ -5,6 +5,7 @@ header{
   background-image: linear-gradient(to left, #141414,#041a99);
   background-size: 500%;
   animation: animacaoBackground 3s infinite alternate;
+  z-index: 1000;
 }
 .header-container{
   display: flex;

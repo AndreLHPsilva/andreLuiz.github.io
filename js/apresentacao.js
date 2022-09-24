@@ -1,13 +1,8 @@
 export default function efeitoMaquinaEscrever(){
-  function typeWrite(txt){
-    const textoArray = txt.innerHTML.match(/((<|<\/)([\w]+)>)|(\D)/gi);
-    txt.innerText = '';
-    textoArray.forEach((letra,i) => {
-      setTimeout(function(){
-        txt.innerHTML += letra;
-      }, 85 * i)
-    })
-  }
-  const h1 = document.querySelector('.apresentacao-texto');
-  typeWrite(h1);
+  const typed = new Typed('.apresentacao-texto', {
+    // Waits 1000ms after typing "First"
+    strings: ['Olá, bem vindo ao meu portfólio.<br>Me chamo <strong>André Luiz</strong> e almejo o<br>cargo de <strong>Estágio Desenvolvedor<br>Web.</strong>'],
+    typeSpeed: 105,
+    showCursor: false
+  });
 }
