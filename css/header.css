@@ -23,6 +23,21 @@ header{
   padding: 8px 16px;
   color: #aec1f9;
   letter-spacing: .05em;
+  position: relative;
+}
+.header-menu li a::after{
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  margin-top: 4px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.header-menu li a:hover:after{
+  width: 100%;
 }
 .btnMobile{
   display: none;
@@ -44,6 +59,9 @@ nav{
     height: 0px;
     z-index: 1000;
     transition: .3s;
+  }
+  .header-menu li a::after{
+    display: none;
   }
   .btnMobile{
     display: flex;
@@ -101,9 +119,14 @@ nav{
     flex-direction: column;
     margin-top: 25px;
     gap: 20px;
+    padding: 20px 0px;
   }
   .header-menu li{
     place-self: center;
+  }
+  .header-menu{
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, .08);
+    
   }
   .header-container.active .header-menu li:hover{
     text-align: center;

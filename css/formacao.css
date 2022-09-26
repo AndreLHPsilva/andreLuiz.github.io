@@ -1,0 +1,123 @@
+.formacao-container{
+  max-width: 1200px;
+  margin: 40px auto 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 118px 40px 40px 40px;
+}
+.formacao-introducao{
+  grid-column: 1/-1;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60ch;
+}
+.cursos{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  padding: 40px;
+  align-items: center;
+  justify-items: center;
+  gap: 40px;
+  text-transform: uppercase;
+}
+.cursos-tipo{
+  grid-column: 1;
+  grid-row: 1/2;
+  position: relative;
+}
+.cursos-titulo::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: -54px;
+  width: 1px;
+  height: 250px;
+  background-color: #aec1f9;
+  z-index: 2;
+}
+.cursos-titulo{
+  grid-column: 2;
+  max-width: 65ch;
+  position: relative;
+}
+.cursos-titulo h2::before{
+  content: '';
+  display: block;
+  background-image: url('../img/icones/icon-school.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  left: -80px;
+  z-index: 3;
+  background-color: rgb(59, 154, 255);
+  border-radius: 50%;
+  padding: 2px;
+}
+.cursos-tipo .font-p{
+  color:#aec1f9;
+  letter-spacing: .05em;
+}
+.cursos-tipo .font-m{
+  color:#30447f;
+}
+.cursos-titulo .font-p{
+  font-weight: 400;
+  text-transform: none;
+  color:#8397d4;
+  margin-top: 8px;
+}
+.cursos-titulo .font-m{
+  color:#30447f;
+}
+.formacao-introducao .font-g{
+  color:#aec1f9;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.formacao-introducao .font-p{
+  color:#aec1f9;
+  font-weight: 400;
+}
+.formacao-introducao .font-p > strong, .cursos-titulo .font-p > strong{
+  color:#0f1d47;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+@media(max-width: 1250px){
+  .cursos{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cursos-titulo{
+    grid-column: 1;
+  }
+  .cursos-titulo h2::before{
+    top: -50px;
+  }
+  .cursos-titulo::before{
+    top: -110px;
+    height: 290px;
+  }
+  .cursos-tipo h2{
+    position: relative;
+  }
+}
+@media(max-width: 800px){
+  .cursos-titulo::before{
+    display: none;
+  }
+  .cursos-titulo h2::before{
+    top: -90px;
+    left: 50px;
+  }
+}
