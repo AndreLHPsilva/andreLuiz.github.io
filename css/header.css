@@ -17,7 +17,7 @@ header{
   display: flex;
 }
 .header-menu li{
-  padding: 8px 16px;
+  padding: 4px 8px;
 }
 .header-menu li a{
   padding: 8px 16px;
@@ -112,7 +112,8 @@ nav{
   .header-container.active nav{
     visibility: visible;
     opacity: 1;
-    height: 205.6px;
+    height: 245px;
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, .08);
   }
 
   .header-menu{
@@ -125,7 +126,7 @@ nav{
     place-self: center;
   }
   .header-menu{
-    box-shadow: 0px 12px 10px rgba(0, 0, 0, .08);
+    
     
   }
   .header-container.active .header-menu li:hover{

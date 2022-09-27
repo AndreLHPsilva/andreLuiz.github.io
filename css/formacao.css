@@ -12,6 +12,9 @@
   margin: 0 auto;
   max-width: 60ch;
 }
+.formacao-introducao h1{
+  margin-bottom: 16px;
+}
 .cursos{
   grid-column: 1/-1;
   display: grid;
@@ -81,8 +84,6 @@
 }
 .formacao-introducao .font-g-2{
   color:#aec1f9;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 .formacao-introducao .font-p{
   color:#aec1f9;

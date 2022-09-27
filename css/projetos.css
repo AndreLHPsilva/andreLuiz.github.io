@@ -1,0 +1,19 @@
+.projetos-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 118px 40px 40px 40px;
+  height: 2000px;
+}
+.projeto-card{
+  max-width: 360px;
+  border: 1px solid #aec1f9;
+  padding: 40px;
+}
+.card-imagem{
+  max-width: 100%;
+}
+.card-imagem img{
+  max-width: 100%;
+  object-fit: cover;
+}

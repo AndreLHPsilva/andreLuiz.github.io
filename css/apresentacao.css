@@ -17,6 +17,7 @@
   font-weight: 400;
   letter-spacing: .08em;
   font-size: 2.25rem;
+  max-width: 34ch;
 }
 .container h1::after{
   content: '|';
@@ -54,5 +55,6 @@
 @media(max-width: 600px){
   .container h1{
     font-size: 1.25rem;
+    max-width: 26ch;
   }
 }
