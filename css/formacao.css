@@ -73,11 +73,13 @@
   text-transform: none;
   color:#8397d4;
   margin-top: 8px;
+  letter-spacing: .01em;
 }
 .cursos-titulo .font-m{
   color:#30447f;
+  font-weight: 500;
 }
-.formacao-introducao .font-g{
+.formacao-introducao .font-g-2{
   color:#aec1f9;
   font-weight: 600;
   text-transform: uppercase;
@@ -88,7 +90,7 @@
 }
 .formacao-introducao .font-p > strong, .cursos-titulo .font-p > strong{
   color:#0f1d47;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 @media(max-width: 1250px){
@@ -120,4 +122,29 @@
     top: -90px;
     left: 50px;
   }
+}
+@media(max-width: 700px){
+  .cursos-titulo h2::before{
+    top: -85px;
+    left: -15px;
+  }
+  .formacao-introducao{
+    margin-bottom: 20px;
+  }
+  .formacao-container{
+    gap: 10px;
+  }
+  .cursos{
+    border-bottom: 1px solid #aec1f9;
+  }
+}
+@media(max-width: 450px){
+  .cursos-titulo h2::before{
+    display: none;
+  }
+  .cursos{
+    padding: 20px;
+    gap: 10px;
+  }
+
 }
