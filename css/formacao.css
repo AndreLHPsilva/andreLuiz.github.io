@@ -65,7 +65,7 @@
   padding: 2px;
 }
 .cursos-tipo .font-p{
-  color:#aec1f9;
+  color:#7186c3;
   letter-spacing: .05em;
 }
 .cursos-tipo .font-m{
@@ -74,7 +74,7 @@
 .cursos-titulo .font-p{
   font-weight: 400;
   text-transform: none;
-  color:#8397d4;
+  color:#7186c3;
   margin-top: 8px;
   letter-spacing: .01em;
 }
@@ -83,10 +83,10 @@
   font-weight: 500;
 }
 .formacao-introducao .font-g-2{
-  color:#aec1f9;
+  color:#7186c3;
 }
 .formacao-introducao .font-p{
-  color:#aec1f9;
+  color:#7186c3;
   font-weight: 400;
 }
 .formacao-introducao .font-p > strong, .cursos-titulo .font-p > strong{

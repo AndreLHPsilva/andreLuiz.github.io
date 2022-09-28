@@ -19,7 +19,7 @@
 .experiencia-texto p{
   max-width: 65ch;
   text-align: center;
-  color: #c2d0fb;
+  color: #87b1d1;
 }
 .experiencia-container a{
   padding: .5rem 1rem;
@@ -41,10 +41,13 @@
   background-size: 40%;
   width: 53px;
   height: 33px;
-  top: -9.9px;
-  left: 70px;
-  animation: moveSeta 1s linear infinite alternate;
   position: absolute;
+  top: -7px;
+  left: 80px;
+  animation: moveSeta 1s linear infinite alternate;
+}
+.experiencia-link a{
+  color: #c2d0fb ;
 }
 @keyframes moveSeta{
   0%{
