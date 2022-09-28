@@ -42,3 +42,29 @@
   flex-direction: column;
   gap: 8px;
 }
+.link-projeto {
+  position: relative;
+  margin-bottom: 8px;
+}
+.card-links .link-projeto::after{
+  content: '';
+  display: block;
+  background-image: url('../img/icones/arrow.svg');
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  width: 53px;
+  height: 33px;
+  position: absolute;
+  top: -15px;
+  left: 110px;
+  animation: moveSeta 1s linear infinite alternate;
+}
+@keyframes moveSeta{
+  0%{
+    margin-left: 0px;
+  }
+  100%{
+    margin-left: 10px;
+  }
+}
