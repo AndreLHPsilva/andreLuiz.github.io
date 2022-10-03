@@ -78,6 +78,11 @@ h2.projeto{
 .sobre-site strong{
   color: #dde7ee;
 }
+.card__giratorio-conteudo--frente p{
+  color: #dde7ee;
+  margin-top: 40px;
+  font-size: .875rem;
+}
 .card__giratorio-conteudo--traseira a{
   margin-bottom: 8px;
   color: #87b1d1;
