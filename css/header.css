@@ -125,10 +125,6 @@ nav{
   .header-menu li{
     place-self: center;
   }
-  .header-menu{
-    
-    
-  }
   .header-container.active .header-menu li:hover{
     text-align: center;
     width: 100%;

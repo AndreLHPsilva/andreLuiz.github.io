@@ -7,3 +7,6 @@ header();
 efeitoMaquinaEscrever();
 girar();
 subir();
+if(window.SimpleAnime){
+  new SimpleAnime();
+}

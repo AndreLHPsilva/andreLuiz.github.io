@@ -5,12 +5,41 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 118px 40px 40px 40px;
+  margin-bottom: 120px;
 }
 .formacao-introducao{
   grid-column: 1/-1;
   text-align: center;
   margin: 0 auto;
   max-width: 60ch;
+}
+.curriculo{
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 152px;
+  gap: 100px;
+}
+.curriculo a{
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+.curriculoLink{
+  padding: .5rem 1.25rem;
+  background-color: rgb(59, 154, 255);
+  border-radius: 8px;
+  color: rgb(11, 11, 86);
+  border: 1px solid rgb(59, 154, 255);
+  box-shadow: 0px 3px 4px #1a167f6e;
+}
+.contatoLink{
+  padding: .5rem 1.25rem;
+  color: rgb(59, 154, 255);
+  border: 2px solid rgb(59, 154, 255);
+  border-radius: 8px;
 }
 .formacao-introducao h1{
   margin-bottom: 16px;
@@ -47,6 +76,7 @@
   max-width: 65ch;
   position: relative;
 }
+
 .cursos-titulo h2::before{
   content: '';
   display: block;
@@ -94,6 +124,21 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+@media(min-width: 1250px){
+  .cursos-titulo::before{
+    top: 0px;
+    left: -17px;
+  }
+  .cursos-titulo h2::before{
+    left: -43px;
+  }
+  .cursos-titulo h2,.cursos-titulo p{
+    margin-left: 100px;
+  }
+  .curriculoLink{
+    margin-right: 24px;
+  }
+}
 @media(max-width: 1250px){
   .cursos{
     grid-template-columns: 1fr;
@@ -123,6 +168,9 @@
     top: -90px;
     left: 50px;
   }
+  .curriculo{
+    margin-top: 60px;
+  }
 }
 @media(max-width: 700px){
   .cursos-titulo h2::before{
@@ -138,6 +186,12 @@
   .cursos{
     border-bottom: 1px solid #aec1f9;
   }
+  .formacao-container{
+    margin-bottom: 48px;
+  }
+  .curriculo{
+    gap: 20px;
+  }
 }
 @media(max-width: 450px){
   .cursos-titulo h2::before{
@@ -146,6 +200,9 @@
   .cursos{
     padding: 20px;
     gap: 10px;
+  }
+  .curriculo{
+    flex-direction: column;
   }
 
 }
