@@ -29,16 +29,16 @@
 }
 .curriculoLink{
   padding: .5rem 1.25rem;
-  background-color: rgb(59, 154, 255);
+  background-color: #3b9aff;
   border-radius: 8px;
-  color: rgb(11, 11, 86);
-  border: 1px solid rgb(59, 154, 255);
+  color: #0b0b56;
+  border: 1px solid #3b9aff;
   box-shadow: 0px 3px 4px #1a167f6e;
 }
 .contatoLink{
   padding: .5rem 1.25rem;
-  color: rgb(59, 154, 255);
-  border: 2px solid rgb(59, 154, 255);
+  color: #3b9aff;
+  border: 2px solid #3b9aff;
   border-radius: 8px;
 }
 .formacao-introducao h1{
