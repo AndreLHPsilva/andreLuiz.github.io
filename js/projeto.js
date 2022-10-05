@@ -2,7 +2,7 @@ export default function girar(){
   const card = document.querySelectorAll('.card__giratorio');
   // Quando clica no link veja mais entra nessa função e vira o card.
   function vira(Touch){
-    const pegarTouch = Touch.path[2];
+    const pegarTouch = Touch.target.offsetParent.offsetParent;//const que pegar a div card__giratorio-conteudo que foi clicado
     const cardTraseiro = document.querySelectorAll('.card__giratorio-conteudo--traseira');
     cardTraseiro.forEach((cardTraseiro) =>{
       //aqui é para quando clicar dentro do conteudo da traseira, desvirar o card
@@ -11,15 +11,14 @@ export default function girar(){
       });
     })
     pegarTouch.classList.add('view');
-
   }
   if (window.matchMedia("(max-width:600px)").matches) {
     card.forEach((card) =>{
-      card.classList.toggle('card-mobile');
+      card.classList.toggle('card-mobile');})
       const linkCard = document.querySelectorAll('.card__giratorio button');
+      // console.log(linkCard)
       linkCard.forEach((linkCard)=>{
         linkCard.addEventListener('touchstart', vira);
       })
-    })
   } 
 }
