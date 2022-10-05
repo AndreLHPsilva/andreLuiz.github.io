@@ -35,6 +35,55 @@
   border: 1px solid #3b9aff;
   box-shadow: 0px 3px 4px #1a167f6e;
 }
+.habilidades{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.habilidades-interno-linguagens{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px 0px 0px 8px;
+  padding: 24px;
+  background-color: #30447f;
+}
+.habilidades-interno-ferramentas{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border: 2px solid #30447f;
+  border-radius: 0px 8px 8px 0px;
+}
+.habilidades-interno-linguagens h4{
+  color: #7186c3 !important;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #aec0f643;
+}
+.habilidades-interno-ferramentas h4{
+  color: #6d80b8 !important;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #30447f43;
+}
+.lista-linguagens{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lista-linguagens li{
+  color: #aeddf9;
+}
+.lista-ferramentas{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lista-ferramentas li{
+  color: #30447f;
+}
 .contatoLink{
   padding: .5rem 1.25rem;
   color: #3b9aff;
@@ -191,6 +240,15 @@
   }
   .curriculo{
     gap: 20px;
+  }
+  .habilidades{
+    flex-direction: column;
+  }
+  .habilidades-interno-linguagens{
+    border-radius: 8px 8px 0px 0px;
+  }
+  .habilidades-interno-ferramentas{
+    border-radius: 0px 0px 8px 8px;
   }
 }
 @media(max-width: 450px){
