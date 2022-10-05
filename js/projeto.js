@@ -16,7 +16,7 @@ export default function girar(){
   if (window.matchMedia("(max-width:600px)").matches) {
     card.forEach((card) =>{
       card.classList.toggle('card-mobile');
-      const linkCard = document.querySelectorAll('.card__giratorio span');
+      const linkCard = document.querySelectorAll('.card__giratorio button');
       linkCard.forEach((linkCard)=>{
         linkCard.addEventListener('touchstart', vira);
       })
