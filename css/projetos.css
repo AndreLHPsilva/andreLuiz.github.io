@@ -80,9 +80,9 @@ h2.projeto{
   animation: animacaoBackground 3s infinite alternate;
   box-shadow: 4px 4px 12px rgba(1, 1, 99, 0.366);
 }
-.card__giratorio-conteudo--frente p{
+.card__giratorio-conteudo--frente span{
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 1.5rem 3rem;
 }
 .sobre-site{
   margin-bottom: 40px;
@@ -92,7 +92,7 @@ h2.projeto{
 .sobre-site strong{
   color: #dde7ee;
 }
-.card__giratorio-conteudo--frente p{
+.card__giratorio-conteudo--frente span{
   color: #dde7ee;
   margin-top: 40px;
   font-size: .875rem;
