@@ -49,6 +49,9 @@ h2.projeto{
   transition: 0.8s;
   transform-style: preserve-3d;
 }
+.projetos-container .arrastar{
+  display: none;
+}
 @media(min-width: 600px){
   .card__giratorio:hover .card__giratorio-conteudo{
     transform: rotateY(180deg);
@@ -76,6 +79,10 @@ h2.projeto{
   background-size: 500%;
   animation: animacaoBackground 3s infinite alternate;
   box-shadow: 4px 4px 12px rgba(1, 1, 99, 0.366);
+}
+.card__giratorio-conteudo--frente p{
+  cursor: pointer;
+  padding: 1rem 2rem;
 }
 .sobre-site{
   margin-bottom: 40px;
@@ -135,14 +142,32 @@ h2.projeto{
 @media(max-width: 500px){
   .projetos-container{
     overflow: hidden;
+    position: relative;
   }
+  .projetos-container .arrastar{
+    display: inline-block;
+    animation: arrastar 1s infinite alternate;
+    position: absolute;
+    bottom: 400px;
+    right: 150px;
+  }
+
   .scroll-mobile{
+    position: relative;
     display: flex;
     overflow-x: auto;
     width: 100%;
+    padding: 25px;
   }
   .card__giratorio{
     flex: 0 0 auto;
     width: 100%;
+  }
+}
+@keyframes arrastar{
+  0%{
+    right: 80px;
+  }100%{
+    right: 150px;
   }
 }
