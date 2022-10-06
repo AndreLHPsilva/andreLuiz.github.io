@@ -35,10 +35,24 @@
     opacity: 0;
   }
 }
+.container .redes{
+  display: flex;
+  height: 200px;
+}
+.container .redes-container{
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.container .redes{
+  display: flex;
+  justify-content: center;
+}
 .container strong{
   color: white;
   font-weight:900;
 }
+
 @media(min-width: 1200px){
   .apresentacao{
     margin-top: 78px;
@@ -51,6 +65,9 @@
 @media(max-width: 800px){
   .container h1{
     font-size: 1.625rem;
+  }
+  .container .redes svg{
+    width: 89%;
   }
 }
 @media(max-width: 600px){
