@@ -1,8 +1,10 @@
 .fadeInRight {
-  transform: translate3d(20px, 0, 0);
+  /* transform: translate3d(20px, 0, 0); */
+  animation: moverEsq .8s forwards;
 }
 .fadeInLeft {
-  transform: translate3d(-20, 0, 0);
+  /* transform: translate3d(-20, 0, 0); */
+  animation: moverDir .8s forwards;
 }
 
 [data-anime] {
@@ -12,4 +14,18 @@
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
+}
+@keyframes moverEsq{
+  from{
+    transform: translate3d(40px,0,0);
+  }to{
+    transform: translate3d(0px,0,0);
+  }
+}
+@keyframes moverDir{
+  from{
+    transform: translate3d(-40px,0,0);
+  }to{
+    transform: translate3d(0px,0,0);
+  }
 }

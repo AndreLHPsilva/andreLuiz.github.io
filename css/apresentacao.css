@@ -41,9 +41,12 @@
 }
 .container .redes-container{
   display: flex;
-  /* gap: 20px; */
+  gap: 20px;
   align-items: end;
 }
+/* .linkedIn{
+  animation: moverEsq .8s forwards;
+} */
 .container .redes{
   display: flex;
   justify-content: center;
