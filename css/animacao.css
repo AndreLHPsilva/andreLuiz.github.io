@@ -1,8 +1,8 @@
 .fadeInRight {
-  transform: translate3d(40px, 0, 0);
+  transform: translate3d(20px, 0, 0);
 }
 .fadeInLeft {
-  transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-20, 0, 0);
 }
 
 [data-anime] {
