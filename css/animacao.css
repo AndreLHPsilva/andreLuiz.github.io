@@ -1,5 +1,5 @@
 .container .linkedIn {
-  animation: aparecer 5.9s linear forwards;
+  animation: aparecer 5.9s linear forwards, moverEsq .8s 5000ms forwards;
 }
 .container .github{
   animation: aparecer 5.9s linear forwards;
@@ -9,5 +9,12 @@
     opacity: 0;
   }100%{
     opacity: 1;
+  }
+}
+@keyframes moverEsq{
+  from{
+    margin-right: 150px;
+  }to{
+    margin-right: 0px;
   }
 }
