@@ -1,27 +1,13 @@
 .container .linkedIn {
   animation: aparecer 5.9s linear forwards;
 }
-/* .container .github{
+.container .github{
   animation: aparecer 5.9s linear forwards;
-} */
+}
 @keyframes aparecer{
   0%,90%{
     opacity: 0;
   }100%{
     opacity: 1;
   }
-}
-.fadeInRight {
-  transform: translate3d(20px, 0, 0);
-}
-.fadeInLeft {
-  transform: translate3d(-40px, 0, 0);
-}
-[data-anime] {
-  opacity: 0;
-}
-.anime {
-  opacity: 1;
-  transform: none;
-  transition: transform .8s, opacity 0.8s;
 }
