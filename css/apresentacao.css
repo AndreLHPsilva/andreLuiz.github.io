@@ -35,6 +35,9 @@
 .container .redes-container a svg{
   fill: blue;
 }
+.container .redes-container{
+  display: -webkit-flex;
+}
 /* .redes-container{
   display: flex;
 } */
