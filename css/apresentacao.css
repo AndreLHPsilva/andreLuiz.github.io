@@ -41,8 +41,11 @@
 }
 .container .redes-container{
   display: flex;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: end;
+}
+.github{
+  margin-left: 20px;
 }
 /* .linkedIn{
   animation: moverEsq .8s forwards;
