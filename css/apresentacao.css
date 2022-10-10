@@ -33,7 +33,7 @@
   font-weight:900;
 }
 .redes-container{
-  display: flex;
+  /* display: flex; */
 }
 @keyframes blink{
   0%,100%{
