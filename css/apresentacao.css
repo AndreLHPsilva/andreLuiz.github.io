@@ -40,6 +40,9 @@
   gap: 20px;
   margin-top: 84px;
 }
+.container .redes-container a svg{
+  fill: red;
+}
 @keyframes blink{
   0%,100%{
     opacity: 1;
@@ -59,9 +62,6 @@
 @media(max-width: 800px){
   .container h1{
     font-size: 1.625rem;
-  }
-  .container .redes svg{
-    width: 89%;
   }
 }
 @media(max-width: 600px){
