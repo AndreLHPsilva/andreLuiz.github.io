@@ -41,8 +41,9 @@
 }
 .container .redes-container{
   display: flex;
-  /* gap: 20px; */
-  align-items: end;
+  margin-top: 120px;
+  /* gap: 20px;
+  align-items: end; */
 }
 .github{
   margin-left: 20px;
