@@ -28,6 +28,13 @@
   animation: blink .7s infinite;
   z-index: 1;
 }
+.container strong{
+  color: white;
+  font-weight:900;
+}
+.redes-container{
+  display: flex;
+}
 @keyframes blink{
   0%,100%{
     opacity: 1;
@@ -35,11 +42,6 @@
     opacity: 0;
   }
 }
-.container strong{
-  color: white;
-  font-weight:900;
-}
-
 @media(min-width: 1200px){
   .apresentacao{
     margin-top: 78px;
