@@ -32,9 +32,9 @@
   color: white;
   font-weight:900;
 }
-.redes-container{
-  /* display: flex; */
-}
+/* .redes-container{
+  display: flex;
+} */
 @keyframes blink{
   0%,100%{
     opacity: 1;
