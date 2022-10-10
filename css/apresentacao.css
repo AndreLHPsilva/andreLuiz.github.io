@@ -33,10 +33,7 @@
   font-weight:900;
 }
 .container .redes-container a svg{
-  fill: blue;
-}
-.container .redes-container{
-  display: -webkit-flex;
+  fill: green;
 }
 /* .redes-container{
   display: flex;
@@ -61,9 +58,9 @@
   .container h1{
     font-size: 1.625rem;
   }
-  .container .redes svg{
+  /* .container .redes svg{
     width: 89%;
-  }
+  } */
 }
 @media(max-width: 600px){
   .container h1{
