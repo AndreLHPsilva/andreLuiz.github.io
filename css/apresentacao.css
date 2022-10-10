@@ -35,26 +35,6 @@
     opacity: 0;
   }
 }
-.container .redes{
-  display: flex;
-  height: 200px;
-}
-.container .redes-container{
-  display: flex;
-  margin-top: 120px;
-  /* gap: 20px;
-  align-items: end; */
-}
-.github{
-  margin-left: 20px;
-}
-/* .linkedIn{
-  animation: moverEsq .8s forwards;
-} */
-.container .redes{
-  display: flex;
-  justify-content: center;
-}
 .container strong{
   color: white;
   font-weight:900;
