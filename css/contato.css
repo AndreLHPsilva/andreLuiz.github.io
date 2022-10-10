@@ -43,19 +43,19 @@
   gap: 12px;
   text-align: center;
 }
-/* .contato-container .redes-container{
+.contato-container .redes-container{
   display: flex;
   gap: 40px;
   margin-bottom: 80px;
-} */
+}
 .redes a:hover svg{
   fill: #aec1f9;
 }
-/* @media(min-width: 1101px){
+@media(min-width: 1101px){
   .redes{
   grid-column: 1/-1;
   }
-} */
+}
 @media(max-width: 1100px){
   .localizacao::after{
     content: '';
@@ -111,16 +111,16 @@
   .contato{
     margin-bottom: 40px;
   }
-  /* .contato-container .redes{
+  .contato-container .redes{
     grid-column: 1;
-  } */
-  /* .contato-container .redes-container{
+  }
+  .contato-container .redes-container{
     margin-top: 40px;
     gap: 20px;
     justify-content: center;
     align-content: center;
     margin-bottom: 40px;
-  } */
+  }
   .contato-container .redes::before{
     content: '';
     display: block;

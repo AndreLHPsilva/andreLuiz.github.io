@@ -1,4 +1,4 @@
-/* .container .linkedIn {
+.container .linkedIn {
   animation: aparecer 5.9s linear forwards, moverEsq .8s 5000ms forwards;
 }
 .container .github{
@@ -17,4 +17,4 @@
   }to{
     margin-right: 0px;
   }
-} */
+}
