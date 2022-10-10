@@ -48,9 +48,6 @@
   gap: 40px;
   margin-bottom: 80px;
 } */
-.redes a svg{
-  fill: red;
-}
 .redes a:hover svg{
   fill: #aec1f9;
 }
