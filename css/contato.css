@@ -48,6 +48,9 @@
   gap: 40px;
   margin-bottom: 80px;
 } */
+.redes a svg{
+  fill: red;
+}
 .redes a:hover svg{
   fill: #aec1f9;
 }
@@ -134,7 +137,6 @@
 }
 .direitos{
   grid-column: 1/-1;
-  /* margin-top: 80px; */
   text-align: center;
 }
 .direitos h4{
