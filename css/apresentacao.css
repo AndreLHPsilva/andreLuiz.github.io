@@ -41,6 +41,7 @@
   width: 100%;
   justify-content: center;
   gap: 20px;
+  margin-top: 84px;
 }
 @keyframes blink{
   0%,100%{
