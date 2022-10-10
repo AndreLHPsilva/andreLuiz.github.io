@@ -33,11 +33,14 @@
   font-weight:900;
 }
 .container .redes-container a svg{
-  fill: blue;
+  fill: red;
 }
 .container .redes-container{
   display: flex;
   display: -webkit-inline-flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
 }
 @keyframes blink{
   0%,100%{
